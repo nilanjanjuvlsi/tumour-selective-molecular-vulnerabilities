@@ -1,0 +1,130 @@
+{
+  "project": "CarbonDot_Cancer",
+  "report_created_utc": "2026-10-22T14:04:48.854560Z",
+  "analysis_scope": [
+    "DepMap colorectal cancer dependency analysis",
+    "PRISM MEK-inhibitor response association",
+    "KRAS hotspot group comparison",
+    "Fixed-panel gene comparisons",
+    "Paired bootstrap comparison of gene correlations"
+  ],
+  "locked_reported_cohort_sizes": {
+    "DepMap_three_matrix_overlap": 1292,
+    "CRC_models_in_PRISM_and_Chronos": 27,
+    "KRAS_hotspot_positive_in_joint_cohort": 17,
+    "no_KRAS_hotspot_recorded_in_joint_cohort": 10
+  },
+  "locked_reported_primary_findings": {
+    "KRAS_MEK_conditions_tested": 10,
+    "positive_KRAS_MEK_correlations": 10,
+    "significant_KRAS_MEK_correlations_in_80_test_panel": 6,
+    "total_gene_compound_tests_in_fixed_panel": 80,
+    "total_paired_bootstrap_comparisons": 70
+  },
+  "interpretation_guardrails": [
+    "PRISM responses are log-fold changes, not IC50 values.",
+    "A missing hotspot record is not confirmed wild type.",
+    "The 27-cell-line analysis is exploratory and small.",
+    "The ten MEK-inhibitor conditions are correlated, not independent validations.",
+    "The current datasets do not directly measure carbon-dot treatment efficacy.",
+    "No carbon-dot efficacy, delivery, uptake, or synergy result is established."
+  ],
+  "file_inventory": [
+    {
+      "file": "data_quality_alignment_audit.json",
+      "exists": true,
+      "size_bytes": 1364,
+      "modified_time": "2026-10-19T16:32:06"
+    },
+    {
+      "file": "PRISM_structure_overlap_audit.json",
+      "exists": true,
+      "size_bytes": 399,
+      "modified_time": "2026-10-22T08:00:31"
+    },
+    {
+      "file": "PRISM_colorectal_overlap_audit.json",
+      "exists": true,
+      "size_bytes": 323,
+      "modified_time": "2026-10-22T08:01:31"
+    },
+    {
+      "file": "colorectal_chronos_candidate_sensitivity.csv",
+      "exists": true,
+      "size_bytes": 1293,
+      "modified_time": "2026-10-19T17:16:02"
+    },
+    {
+      "file": "colorectal_KRAS_hotspot_chronos_comparison.csv",
+      "exists": true,
+      "size_bytes": 1928115,
+      "modified_time": "2026-10-19T17:26:43"
+    },
+    {
+      "file": "PRISM_CRC_candidate_gene_condition_correlations.csv",
+      "exists": true,
+      "size_bytes": 7784188,
+      "modified_time": "2026-10-22T13:48:46"
+    },
+    {
+      "file": "PRISM_CRC_candidate_gene_condition_FDR05.csv",
+      "exists": true,
+      "size_bytes": 117,
+      "modified_time": "2026-10-22T13:48:47"
+    },
+    {
+      "file": "PRISM_CRC_KRAS_MEK_exploratory_correlations.csv",
+      "exists": true,
+      "size_bytes": 1234,
+      "modified_time": "2026-10-22T13:51:32"
+    },
+    {
+      "file": "PRISM_CRC_KRAS_MEK_robustness.csv",
+      "exists": true,
+      "size_bytes": 1848,
+      "modified_time": "2026-10-22T13:52:40"
+    },
+    {
+      "file": "PRISM_CRC_MEK_compound_response_correlations.csv",
+      "exists": true,
+      "size_bytes": 1929,
+      "modified_time": "2026-10-22T13:52:40"
+    },
+    {
+      "file": "PRISM_CRC_MEK_KRAS_hotspot_group_comparison.csv",
+      "exists": true,
+      "size_bytes": 1570,
+      "modified_time": "2026-10-22T13:55:02"
+    },
+    {
+      "file": "PRISM_CRC_PD0325901_KRAS_independent_association_coefficients.csv",
+      "exists": true,
+      "size_bytes": 736,
+      "modified_time": "2026-10-22T13:57:09"
+    },
+    {
+      "file": "PRISM_CRC_PD0325901_KRAS_independent_association_model_fit.csv",
+      "exists": true,
+      "size_bytes": 204,
+      "modified_time": "2026-10-22T13:57:09"
+    },
+    {
+      "file": "PRISM_CRC_KRAS_MEK_fixed_set_robustness.csv",
+      "exists": true,
+      "size_bytes": 1238,
+      "modified_time": "2026-10-22T13:59:21"
+    },
+    {
+      "file": "PRISM_CRC_candidate_genes_MEK_fixed_panel.csv",
+      "exists": true,
+      "size_bytes": 8905,
+      "modified_time": "2026-10-22T14:00:42"
+    },
+    {
+      "file": "PRISM_CRC_KRAS_vs_candidate_gene_paired_bootstrap.csv",
+      "exists": true,
+      "size_bytes": 8645,
+      "modified_time": "2026-10-22T14:03:39"
+    }
+  ]
+}

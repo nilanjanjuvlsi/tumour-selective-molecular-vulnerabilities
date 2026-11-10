@@ -1,0 +1,35 @@
+{
+  "crispr": {
+    "rows": 1361,
+    "feature_columns": 18434,
+    "sample_numeric_fraction": 0.9850276662688511,
+    "total_matrix_values": 25088674,
+    "missing_values": 814645,
+    "nonnumeric_nonmissing_values": 0,
+    "finite_numeric_values": 24274029,
+    "minimum_finite_value": 0.0,
+    "maximum_finite_value": 1.0
+  },
+  "expression": {
+    "rows": 2130,
+    "feature_columns": 19218,
+    "sample_numeric_fraction": 1.0,
+    "total_matrix_values": 40934340,
+    "missing_values": 0,
+    "nonnumeric_nonmissing_values": 0,
+    "finite_numeric_values": 40934340,
+    "minimum_finite_value": 0.0,
+    "maximum_finite_value": 18.188337326
+  },
+  "mutations": {
+    "rows": 2395,
+    "feature_columns": 19657,
+    "sample_numeric_fraction": 1.0,
+    "total_matrix_values": 47078515,
+    "missing_values": 0,
+    "nonnumeric_nonmissing_values": 0,
+    "finite_numeric_values": 47078515,
+    "minimum_finite_value": 0.0,
+    "maximum_finite_value": 2.0
+  }
+}

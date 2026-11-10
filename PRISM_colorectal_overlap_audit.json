@@ -1,0 +1,10 @@
+{
+  "depmap_crc_models": 127,
+  "unique_depmap_crc_model_ids": 127,
+  "crc_models_directly_matched_to_prism_response": 35,
+  "unique_directly_matched_crc_models": 35,
+  "prism_duplicate_id_rows": 20,
+  "prism_unique_duplicated_ids": 0,
+  "prism_colorectal_like_metadata_rows": 35,
+  "prism_colorectal_like_unique_ids": 35
+}

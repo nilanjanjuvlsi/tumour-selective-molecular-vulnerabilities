@@ -1,0 +1,43 @@
+
+\begin{table*}[htbp]
+\centering
+\caption{Correlation and robustness analysis of KRAS dependency
+and PRISM response across ten MEK inhibitors in colorectal cancer
+cell-line models. Bootstrap confidence intervals and leave-one-out
+(LOO) ranges summarize the stability of the observed correlations.}
+\label{tab:kras_mek_robustness}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lrrrrllllr}
+\toprule
+Compound & $n$ & Spearman $\rho$ & $p$ & BH $q$
+& Bootstrap 95\% CI & LOO $\rho$ range
+& LOO positive fraction & Bootstrap $B$ \\
+\midrule
+TAK-733 & 26 & 0.6561 & 0.0003 & 0.0018 & [0.3716, 0.8183] & [0.6262, 0.7200] & 1.00 & 3000 \\
+PD-0325901 & 27 & 0.6361 & 0.0004 & 0.0018 & [0.3480, 0.8113] & [0.6014, 0.7101] & 1.00 & 3000 \\
+AS-703026 & 26 & 0.5952 & 0.0013 & 0.0041 & [0.2766, 0.8161] & [0.5608, 0.6546] & 1.00 & 3000 \\
+Ro-4987655 & 26 & 0.5747 & 0.0021 & 0.0041 & [0.2237, 0.8020] & [0.5300, 0.6962] & 1.00 & 3000 \\
+MEK162 & 26 & 0.5706 & 0.0023 & 0.0041 & [0.1908, 0.8098] & [0.5315, 0.6577] & 1.00 & 3000 \\
+PD-318088 & 26 & 0.5679 & 0.0025 & 0.0041 & [0.2341, 0.7869] & [0.5254, 0.6523] & 1.00 & 3000 \\
+refametinib & 26 & 0.5159 & 0.007 & 0.01 & [0.1708, 0.7531] & [0.4808, 0.6262] & 1.00 & 3000 \\
+trametinib & 26 & 0.4379 & 0.0252 & 0.0287 & [0.0285, 0.7465] & [0.3731, 0.5631] & 1.00 & 3000 \\
+selumetinib & 26 & 0.4345 & 0.0265 & 0.0287 & [0.0557, 0.6935] & [0.3938, 0.5608] & 1.00 & 3000 \\
+PD-184352 & 26 & 0.4291 & 0.0287 & 0.0287 & [0.0460, 0.7314] & [0.3785, 0.5338] & 1.00 & 3000 \\
+\bottomrule
+\end{tabular}
+
+\vspace{2mm}
+\begin{minipage}{0.96\textwidth}
+\footnotesize
+Nominal $p$-values are reported alongside Benjamini--Hochberg
+adjusted $q$-values. Bootstrap confidence intervals were calculated
+using 3,000 resamples per compound. The LOO range reports the
+minimum and maximum Spearman correlation after leaving out one
+cell-line model at a time. The LOO positive fraction is the
+proportion of leave-one-out correlations greater than zero.
+Positive correlations indicate that less-negative KRAS Chronos
+scores tend to accompany less-negative PRISM response measurements.
+\end{minipage}
+\end{table*}

@@ -1,0 +1,10 @@
+{
+  "broad_colorectal_n": 35,
+  "broad_colorectal_in_response_n": 35,
+  "primary_PD0325901_n": 27,
+  "primary_in_response_n": 27,
+  "dependency_summary_n": 81,
+  "primary_missing_from_dependency_summary": [],
+  "primary_outside_broad_colorectal_file": [],
+  "broad_colorectal_outside_primary_n": 8
+}

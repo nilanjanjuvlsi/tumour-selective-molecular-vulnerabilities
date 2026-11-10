@@ -1,0 +1,65 @@
+{
+  "figure": "S17",
+  "source": "Supporting information for the CD-SN38 HT29 study",
+  "total_detected_components": 79,
+  "unresolved_missing_records": 2,
+  "expected_components_assumption": 81,
+  "count_assumption_note": "81 is a provisional working assumption (9 dose positions \u00d7 3 panels \u00d7 3 times); verify against the source figure.",
+  "axis_calibration_status": "Calibration provisional; bar estimates not yet accepted",
+  "digitized_values_are_original_measurements": false,
+  "dose_mapping_validated": false,
+  "limitations": [
+    "Digitized percentages are provisional estimates from plotted bars.",
+    "Dose labels have not been validated for every detection.",
+    "Two unresolved records have no assigned panel, time, dose, or value.",
+    "The original replicate-level observations cannot be reconstructed.",
+    "Do not calculate IC50 values or infer statistical significance from this file."
+  ],
+  "detection_counts": [
+    {
+      "panel": "a_CDs",
+      "color_time": "24h_purple",
+      "detected_components": 9
+    },
+    {
+      "panel": "a_CDs",
+      "color_time": "48h_pink",
+      "detected_components": 9
+    },
+    {
+      "panel": "a_CDs",
+      "color_time": "72h_orange",
+      "detected_components": 8
+    },
+    {
+      "panel": "b_SN38",
+      "color_time": "24h_purple",
+      "detected_components": 9
+    },
+    {
+      "panel": "b_SN38",
+      "color_time": "48h_pink",
+      "detected_components": 9
+    },
+    {
+      "panel": "b_SN38",
+      "color_time": "72h_orange",
+      "detected_components": 9
+    },
+    {
+      "panel": "c_CD_SN38",
+      "color_time": "24h_purple",
+      "detected_components": 9
+    },
+    {
+      "panel": "c_CD_SN38",
+      "color_time": "48h_pink",
+      "detected_components": 8
+    },
+    {
+      "panel": "c_CD_SN38",
+      "color_time": "72h_orange",
+      "detected_components": 9
+    }
+  ]
+}

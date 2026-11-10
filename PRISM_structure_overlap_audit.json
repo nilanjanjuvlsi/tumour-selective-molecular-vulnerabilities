@@ -1,0 +1,11 @@
+{
+  "prism_metadata_rows": 588,
+  "prism_unique_depmap_ids": 568,
+  "response_matrix_unique_ids": 578,
+  "response_ids_found_in_prism_metadata": 568,
+  "response_treatment_columns": 4686,
+  "unique_treatment_metadata_columns": 4686,
+  "response_columns_matched_to_treatment_metadata": 4686,
+  "response_columns_missing_treatment_metadata": 0,
+  "treatment_metadata_entries_absent_from_response": 0
+}

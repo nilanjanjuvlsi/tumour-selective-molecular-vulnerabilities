@@ -1,0 +1,19 @@
+{
+  "matrix_unique_ID_counts": {
+    "crispr": 1361,
+    "expression": 2130,
+    "mutations": 2395
+  },
+  "three_way_common_ID_count": 1292,
+  "metadata_rows": 2554,
+  "metadata_unique_ID_count": 2554,
+  "metadata_duplicate_ID_rows": 0,
+  "matched_metadata_rows": 1292,
+  "matched_missing_lineage": 0,
+  "matched_missing_primary_disease": 0,
+  "output_files": {
+    "matched_metadata": "/content/drive/MyDrive/CarbonDot_Cancer/01_PROCESSED_DATA/three_way_matched_model_metadata.csv",
+    "lineage_counts": "/content/drive/MyDrive/CarbonDot_Cancer/02_RESULTS/cancer_lineage_counts.csv",
+    "disease_counts": "/content/drive/MyDrive/CarbonDot_Cancer/02_RESULTS/cancer_lineage_disease_counts.csv"
+  }
+}

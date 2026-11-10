@@ -1,0 +1,59 @@
+{
+  "crispr": {
+    "filename": "CRISPR_Gene_Dependency_subsetted.csv",
+    "rows": 1361,
+    "columns_including_id": 18435,
+    "gene_columns": 18434,
+    "unique_cell_line_ids": 1361,
+    "duplicate_id_rows": 0,
+    "missing_id_rows": 0,
+    "example_ids": [
+      "ACH-002730",
+      "ACH-002731",
+      "ACH-002736",
+      "ACH-002742",
+      "ACH-002743"
+    ]
+  },
+  "expression": {
+    "filename": "Expression_(Short-read)_Public_26Q3_subsetted.csv",
+    "rows": 2130,
+    "columns_including_id": 19219,
+    "gene_columns": 19218,
+    "unique_cell_line_ids": 2130,
+    "duplicate_id_rows": 0,
+    "missing_id_rows": 0,
+    "example_ids": [
+      "ACH-001113",
+      "ACH-001289",
+      "ACH-001339",
+      "ACH-001979",
+      "ACH-002438"
+    ]
+  },
+  "mutations": {
+    "filename": "Damaging_Mutations_(Public_26Q3)_subsetted.csv",
+    "rows": 2395,
+    "columns_including_id": 19658,
+    "gene_columns": 19657,
+    "unique_cell_line_ids": 2395,
+    "duplicate_id_rows": 0,
+    "missing_id_rows": 0,
+    "example_ids": [
+      "ACH-000062",
+      "ACH-002059",
+      "ACH-000402",
+      "ACH-002811",
+      "ACH-000693"
+    ]
+  },
+  "alignment": {
+    "common_cell_lines": 1292,
+    "common_genes": 17449,
+    "pairwise_cell_line_overlap": {
+      "crispr__expression": 1292,
+      "crispr__mutations": 1361,
+      "expression__mutations": 2049
+    }
+  }
+}

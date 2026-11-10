@@ -1,0 +1,9 @@
+{
+  "crispr_missing_cell_lines": 1356,
+  "crispr_cell_lines_over_5pct_missing": 118,
+  "crispr_genes_with_missing_values": 1352,
+  "crispr_genes_over_5pct_missing": 1334,
+  "mutation_zero_fraction": 0.9971410313175766,
+  "mutation_one_fraction": 0.0025905659938509104,
+  "mutation_two_fraction": 0.00026840268857248364
+}
